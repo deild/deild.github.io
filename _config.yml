@@ -1,0 +1,9 @@
+highlighter: pygments
+
+gems:
+- jekyll-textile-converter
+- jekyll-asciidoc
+
+textile_ext: "textile,txtl,tl"
+
+asciidoc_ext: asciidoc,adoc,ad
