@@ -5,8 +5,9 @@ rvm:
 - 2.1
 # Assume bundler is being used, install step will run `bundle install`.
 # The script directive can be absolutely any valid shell command.
-install: gem install jekyll html-proofer
-script: jekyll build && htmlproof ./_site
+install: bundle install
+script: jekyll build 
+# && htmlproof ./_site
 
 # branch whitelist
 branches:
