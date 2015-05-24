@@ -20,7 +20,7 @@ author :
   name : Tolvä
   email : smur@free.fr
   github : deild
-  twitter : username
+#  twitter : username
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -74,9 +74,9 @@ JB :
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
-  archive_path: /archive.html
+  archive_path: /archive/index.html
   categories_path : /categories.html
-  tags_path : /tags.html
+  tags_path : /tags/index.html
   atom_path : /atom.xml
   rss_path : /rss.xml
 
