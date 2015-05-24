@@ -1,8 +1,12 @@
+# This line tells Travis to use a Ruby build container. It gives your script access to Bundler, RubyGems, and a Ruby runtime.
 language: ruby
+# RVM is a popular Ruby Version Manager (like rbenv, chruby, etc). This directive tells Travis the Ruby version to use when running your test script.
 rvm:
 - 2.1
 # Assume bundler is being used, install step will run `bundle install`.
-script: ./script/cibuild
+# The script directive can be absolutely any valid shell command.
+install: gem install jekyll html-proofer
+script: jekyll build && htmlproof ./_site
 
 # branch whitelist
 branches:
