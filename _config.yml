@@ -1,5 +1,5 @@
 # Site settings
-title: "Micro Blog"
+title: "Eldhusid & +"
 email: smur@free.fr
 description: "Le blog culinaire de Tolva."
 baseurl: ""
@@ -8,6 +8,7 @@ url: "http://deild.github.io/"
 twitter_username: MhinTolva
 github_username:  deild
 instagram_username: mihntolva
+flickr_username: mhintolva
 
 # Build settings
 markdown: kramdown
@@ -22,7 +23,7 @@ timezone: Europe/Paris
 
 # Site settings
 title_description: "Bonne lecture et dégustation."
-title_image: "images/avatar.png"
+title_image: "https://c1.staticflickr.com/9/8859/17896320759_6b73e37514_o.png"
 github_repository: https://github.com/deild/deild.github.io
 post_limit: 5
 
@@ -31,8 +32,8 @@ post_limit: 5
 # stackoverflow_link: http://carte-noire.tolva.co.uk/
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/MhinTolva\" target=\"_new\">Tolva</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/deild/deild.github.io\" target=\"_new\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+# footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/MhinTolva\" target=\"_new\">Tolva</a>"
+# footer_right: "&lt;/&gt; on <a href=\"https://github.com/deild/deild.github.io\" target=\"_new\">Github</a>&nbsp;<img alt=\"octocat\" src=\"http://deild.github.io/images/Octocat.png\" height=\"16\" width=\"16\"/>"
 
 # Build settings
 # markdown: redcarpet
