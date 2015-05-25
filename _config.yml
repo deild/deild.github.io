@@ -1,0 +1,37 @@
+# Site settings
+title: "Micro Blog"
+email: smur@free.fr
+description: "Le blog culinaire dde Tolva."
+baseurl: ""
+url: "http://deild.github.io/"
+title_description: "Bonne lecture et dégustation."
+title_image: "images/avatar.png"
+github_repository: https://github.com/deild/deild.github.io
+post_limit: 5
+
+# Social usernames/URLs
+twitter_username: MhinTolva
+github_username:  deild
+instagram_username: mihntolva
+# linkedin_link: http://carte-noire.tolva.co.uk/
+# google_plus_link: http://carte-noire.tolva.co.uk/
+# stackoverflow_link: http://carte-noire.tolva.co.uk/
+
+# Footer
+footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/MhinTolva\" target="_new">Tolva</a>"
+footer_right: "&lt;/&gt; on <a href=\"https://github.com/deild/deild.github.io\" target="_new">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+
+# Build settings
+# markdown: redcarpet
+# redcarpet:
+#   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+# permalink: pretty
+permalink: /:categories/:year/:month/:day/:title
+exclude: [vendor]
+
+
+gems:
+  - jekyll-textile-converter
+  - jekyll-asciidoc
+textile_ext: "textile,txtl,tl"
+asciidoc_ext: "asciidoc,adoc,ad"

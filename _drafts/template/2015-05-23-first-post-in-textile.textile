@@ -1,0 +1,12 @@
+---
+layout: post
+category : intro
+tagline: "tagline"
+tags : [intro, beginner, jekyll]
+title : first post in textile
+---
+{% include JB/setup %}
+
+
+bq. La vie est un mystère qu'il faut vivre, et non un problème à résoudre.
+-- Gandhi
