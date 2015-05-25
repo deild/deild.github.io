@@ -27,7 +27,7 @@ layout: default
 
       <div class="author">
         <small><i>
-          by
+          par
           <span itemprop="author">
             {% if page.author %}
             <span itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -35,14 +35,14 @@ layout: default
             </span>
             {% endif %}
           </span>
-          on <span itemprop="datePublished" content="2014-08-28">{{ page.date | date: "%B %-d, %Y" }}</span>
-          under {% if page.categories %}{% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
+          le <span itemprop="datePublished" content="2014-08-28">{{ page.date | date: "%B %-d, %Y" }}</span>
+          sous {% if page.categories %}{% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
         </i></small>
       </div>
 
       <div class="read-time">
         <small>
-          {{ minutes }} minute read
+          {{ minutes }} minute lecture
         </small>
       </div>
 
@@ -70,14 +70,14 @@ layout: default
       <div class="content-panel related clearfix">
         {% for post in site.related_posts limit:1 %}
         <div class="related-header">
-          <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+          <a href="{{ site.baseurl }}{{ post.url }}">Lire plus</a>
         </div>
           <div class="title">
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
           </div>
           <div class="excerpt">
             {{ post.excerpt | strip_html | truncatewords:30 }}
-            <a href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
+            <a href="{{ site.baseurl }}{{ post.url }}">Continuer la lecture</a>
           </div>
         {% endfor %}
         <hr />
