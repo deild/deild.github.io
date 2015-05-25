@@ -6,8 +6,7 @@ rvm:
 # Assume bundler is being used, install step will run `bundle install`.
 # The script directive can be absolutely any valid shell command.
 install: bundle install
-script: jekyll build
-# && htmlproof ./_site --only-4xx --check-favicon --check-html
+script: jekyll build && htmlproof ./_site --only-4xx
 
 # branch whitelist
 branches:
