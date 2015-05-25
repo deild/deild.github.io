@@ -35,14 +35,30 @@ layout: default
             </span>
             {% endif %}
           </span>
-          le <span itemprop="datePublished" content="2014-08-28">{{ page.date | date: "%B %-d, %Y" }}</span>
-          sous {% if page.categories %}{% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
+          le <span itemprop="datePublished" content="2014-08-28">{% assign m = page.date | date: "%-m" %}
+          {{ page.date | date: "%-d" }}
+          {% case m %}
+            {% when '1' %}janvier
+            {% when '2' %}février
+            {% when '3' %}mars
+            {% when '4' %}avril
+            {% when '5' %}mai
+            {% when '6' %}juin
+            {% when '7' %}juillet
+            {% when '8' %}août
+            {% when '9' %}septembre
+            {% when '10' %}octobre
+            {% when '11' %}novembre
+            {% when '12' %}décembres
+          {% endcase %}
+          {{ page.date | date: "%Y" }}</span>
+          dans {% if page.categories %}{% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
         </i></small>
       </div>
 
       <div class="read-time">
         <small>
-          {{ minutes }} minute lecture
+          {{ minutes }} minute de lecture
         </small>
       </div>
 
@@ -86,7 +102,24 @@ layout: default
           <p>
             <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
           </p>
-          <p class="date">Published {{ page.previous.date | date: "%B %-d, %Y" }}</p>
+          <p class="date">Publié le {% assign m = page.previous.date | date: "%-m" %}
+          {{ page.previous.date | date: "%-d" }}
+          {% case m %}
+            {% when '1' %}janvier
+            {% when '2' %}février
+            {% when '3' %}mars
+            {% when '4' %}avril
+            {% when '5' %}mai
+            {% when '6' %}juin
+            {% when '7' %}juillet
+            {% when '8' %}août
+            {% when '9' %}septembre
+            {% when '10' %}octobre
+            {% when '11' %}novembre
+            {% when '12' %}décembres
+          {% endcase %}
+          {{ page.previous.date | date: "%Y" }}</p>
+
           {% endif %}
         </div>
         <div class="next previous-next">
@@ -94,7 +127,23 @@ layout: default
           <p>
             <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a>
           </p>
-          <p class="date">Published {{ page.next.date | date: "%B %-d, %Y" }}</p>
+          <p class="date">Publié le {% assign m = page.next.date | date: "%-m" %}
+          {{ page.next.date | date: "%-d" }}
+          {% case m %}
+            {% when '1' %}janvier
+            {% when '2' %}février
+            {% when '3' %}mars
+            {% when '4' %}avril
+            {% when '5' %}mai
+            {% when '6' %}juin
+            {% when '7' %}juillet
+            {% when '8' %}août
+            {% when '9' %}septembre
+            {% when '10' %}octobre
+            {% when '11' %}novembre
+            {% when '12' %}décembres
+          {% endcase %}
+          {{ page.next.date | date: "%Y" }}</p>
           {% endif %}
         </div>
       </div>

@@ -39,7 +39,23 @@ layout: default
 
                       <li>
                           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                          <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
+                          <small class="hidden-xs">{% assign m = psot.date | date: "%-m" %}
+                          {{ post.date | date: "%-d" }}
+                          {% case m %}
+                            {% when '1' %}janvier
+                            {% when '2' %}février
+                            {% when '3' %}mars
+                            {% when '4' %}avril
+                            {% when '5' %}mai
+                            {% when '6' %}juin
+                            {% when '7' %}juillet
+                            {% when '8' %}août
+                            {% when '9' %}septembre
+                            {% when '10' %}octobre
+                            {% when '11' %}novembre
+                            {% when '12' %}décembres
+                          {% endcase %}
+                          {{ post.date | date: "%Y" }}</small>
                       </li>
 
                   {% endfor %}
