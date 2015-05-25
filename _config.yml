@@ -12,11 +12,11 @@ instagram_username: mihntolva
 # Build settings
 markdown: kramdown
 
-gems:
-  - jekyll-textile-converter
-  - jekyll-asciidoc
-textile_ext: "textile,txtl,tl"
-asciidoc_ext: "asciidoc,adoc,ad"
+# gems:
+#   - jekyll-textile-converter
+#   - jekyll-asciidoc
+# textile_ext: "textile,txtl,tl"
+# asciidoc_ext: "asciidoc,adoc,ad"
 
 timezone: Europe/Paris
 
