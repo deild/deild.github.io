@@ -8,7 +8,7 @@ tags:
 - Maroc
 - Dessert
 modified_time: '2013-04-14T17:17:37.736+02:00'
-thumbnail: flask
+thumbnail: cutlery
 ---
 
 ### Ingrédients :

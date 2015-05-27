@@ -7,7 +7,7 @@ category: cuisine
 tags:
 - Apéritif
 modified_time: '2013-04-02T21:29:43.195+02:00'
-thumbnail: flask
+thumbnail: cutlery
 ---
 
 ### Ingrédients (pour 4 personnes) :

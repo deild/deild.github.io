@@ -3,7 +3,7 @@ layout: post
 title: Empanadas carne accompagné d'haricots vert crème et curcuma
 date: '2013-04-02T21:34:00.001+02:00'
 author: Tolva
-thumbnail: flask
+thumbnail: cutlery
 category: cuisine
 tags:
 - Argentine

@@ -8,7 +8,7 @@ tags:
 - Chocolat
 - Dessert
 modified_time: '2014-01-25T20:26:30.183+01:00'
-thumbnail: flask
+thumbnail: cutlery
 ---
 
 ![img](https://lh5.googleusercontent.com/-uQTgxH_wlWc/UuQKKQWHexI/AAAAAAAAG7M/hky7W1pdhBU/s640/blogger-image--1505227738.jpg)
