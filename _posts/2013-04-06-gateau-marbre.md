@@ -16,10 +16,10 @@ thumbnail: cutlery
 - 4 oeufs
 - 2 boites de farine fluide
 - 2/3 boites d'huile
-- 4 cuillères à soupe de cacao en poudre sucré
+- 4 c.s. de cacao en poudre sucré
 - 10 cl de lait
 - le zeste finement râpé d'un citron non traité
-- 1 cuillère à café d'extrait de vanille liquide
+- 1 c.c. d'extrait de vanille liquide
 - une pincée de sel
 - 1 sachet de levure chimique
 - beurre pour le moule et un peu de farine

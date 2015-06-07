@@ -6,6 +6,7 @@ category: cuisine
 tags:
 - Dessert
 thumbnail: cutlery
+excerpt: écraser les biscuits ...
 ---
 
 ### Ingrédients :

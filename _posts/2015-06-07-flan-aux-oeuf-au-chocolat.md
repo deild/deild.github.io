@@ -7,6 +7,7 @@ tags:
 - Dessert
 - Chocolat
 thumbnail: cutlery
+excerpt: Verser la boisson végétale ...
 ---
 
 ### Ingrédients :
@@ -29,5 +30,4 @@ Cassez les oeufs dans le bol d'un blender, ajoutez la cannelle et la boisson vé
 Déposez-les dans le plat et enfournez 35 minutes.
 Retirez les ramequins du bain-marie pour les déguster tièdes ou complètement refroidis.
 
-### Variante :
-- remplacer le chocolat par 3 c.s. de purée d'ammandes blanches que vous délayer avec la boisson riz-noissette. 
+_Variante : remplacer le chocolat par 3 c.s. de purée d'ammandes blanches que vous délayer avec la boisson riz-noissette._
