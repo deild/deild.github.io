@@ -5,7 +5,6 @@ tagline: "tagline"
 tags : [intro, beginner, jekyll]
 title : first post in asciidoc
 ---
-{% include JB/setup %}
 
 
 [quote, Gandhi]
