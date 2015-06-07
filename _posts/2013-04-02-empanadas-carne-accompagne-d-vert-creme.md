@@ -15,10 +15,10 @@ modified_time: '2013-04-14T17:16:49.511+02:00'
 - 3 rouleaux de pâte feuilletée ou brisée
 - 500 g viande de boeuf hachée
 - 4 oignons
-- 1 cuillère à café de paprika
-- 1 cuillère à café de cumin
-- 1 cuillère à café d'origan
-- 1 cuillère à café de sucre en poudre
+- 1 c.c. de paprika
+- 1 c.c. de cumin
+- 1 c.c. d'origan
+- 1 c.c. de sucre en poudre
 - 150 ml de concentré de tomates (2 petites boîtes)
 - bouillon de viande
 - 70 g de raisins secs blonds

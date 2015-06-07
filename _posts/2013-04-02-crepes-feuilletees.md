@@ -13,12 +13,12 @@ thumbnail: cutlery
 
 ### Ingrédients :
 
-- 425g de farine
-- 75g de semoule fine + 35 g
+- 425 g de farine
+- 75 g de semoule fine + 35 g
 - Eau tiède
 - Sel
 - 1/2 tasse d'huile de table
-- 3 cs de beurre fondu
+- 3 c.s. de beurre fondu
 
 ### Préparation de la recette :
 

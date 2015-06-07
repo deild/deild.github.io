@@ -12,7 +12,7 @@ thumbnail: cutlery
 
 ### Ingrédients (pour 4 personnes) :
 - 250 g farine ordinaire ou aux céréales
-- 2 (petits) verres d'eau- 1/2 verre (petit) de lait
+- 2 (petits) verres d'eau- 1/2 (petit) verre de lait
 - 1 bonne pincée de sel
 - 1 sachet de levure de boulanger déshydratée ou 10 à 15 g de levure fraîche
 - chorizo coupé en dés (quantité selon les goûts)
