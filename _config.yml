@@ -23,7 +23,7 @@ github_repository: https://github.com/deild/deild.github.io
 post_limit: 5
 
 permalink: /:categories/:year/:month/:day/:title
-exclude: [vendor]
+exclude: [vendor, README.md]
 
 
 # Markdown Processors
