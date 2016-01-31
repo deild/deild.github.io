@@ -1,12 +1,14 @@
 language: ruby
 rvm:
-- 2.2
+- 2.3
 
 before_install:
   - gem update --system
   - gem --version
+
 install: bundle install
-script: jekyll build --incremental --verbose && github-pages health-check
+
+script: jekyll build --verbose && github-pages health-check
 
 branches:
   only:
