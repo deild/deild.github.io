@@ -11,13 +11,8 @@ instagram_username: mihntolva
 flickr_username: mhintolva
 
 # Build settings
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
-
-# gems:
-#   - jekyll-textile-converter
-#   - jekyll-asciidoc
-# textile_ext: "textile,txtl,tl"
-# asciidoc_ext: "asciidoc,adoc,ad"
 
 timezone: Europe/Paris
 
@@ -27,18 +22,21 @@ title_image: "https://c1.staticflickr.com/9/8859/17896320759_6b73e37514_o.png"
 github_repository: https://github.com/deild/deild.github.io
 post_limit: 5
 
-# linkedin_link: http://carte-noire.tolva.co.uk/
-# google_plus_link: http://carte-noire.tolva.co.uk/
-# stackoverflow_link: http://carte-noire.tolva.co.uk/
-
-# Footer
-# footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/MhinTolva\" target=\"_new\">Tolva</a>"
-# footer_right: "&lt;/&gt; on <a href=\"https://github.com/deild/deild.github.io\" target=\"_new\">Github</a>&nbsp;<img alt=\"octocat\" src=\"http://deild.github.io/images/Octocat.png\" height=\"16\" width=\"16\"/>"
-
-# Build settings
-# markdown: redcarpet
-# redcarpet:
-#   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
-# permalink: pretty
 permalink: /:categories/:year/:month/:day/:title
 exclude: [vendor]
+
+
+# Markdown Processors
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
