@@ -1,4 +1,4 @@
-# This is the data for my blog [![Build Status](https://travis-ci.org/deild/deild.github.io.svg?branch=master)](https://travis-ci.org/deild/deild.github.io)
+# This is the data for my blog [![Build Status](https://travis-ci.org/deild/deild.github.io.svg?branch=master)](https://travis-ci.org/deild/deild.github.io) [![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/deild/deild.github.io/master/LICENSE)
 
 It is automatically transformed by "Jekyll" : http://github.com/mojombo/jekyll into a static site whenever I push this repository to GitHub.
 
