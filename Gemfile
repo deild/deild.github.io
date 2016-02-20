@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 # github-pages dependencies
-gem "jekyll", "3.0.2"
+gem "jekyll", "3.0.3"
 gem "html-proofer"
 
 require 'json'
