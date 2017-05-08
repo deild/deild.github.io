@@ -37,7 +37,8 @@ layout: default
               <h2>Derniers articles</h2>
 
               <ul>
-                  {% for post in site.posts | limit: site.post_limit %}
+                  {% assign limit_posts = site.posts | limit: site.post_limit %}
+                  {% for post in limit_posts %}
 
                       <li>
                           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
