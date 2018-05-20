@@ -5,7 +5,7 @@ source "https://rubygems.org"
 gem "jekyll", "3.4.3"
 gem "html-proofer"
 
-gem 'json', "1.8.6"
+# gem 'json', "1.8.6"
 # require 'open-uri'
 # versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
