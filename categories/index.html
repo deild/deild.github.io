@@ -11,21 +11,22 @@ group: navigation
     <h2 class="header" itemprop="headline">Catégories</h2>
 
     {% for cat in site.categories %}
-    	<i class="fa fa-th-large"></i> <a href="{{ site.baseurl }}/categories/index.html#{{ cat[0] }}-ref">{{ cat[0] }} <span>[{{ cat[1].size }}]</span></a>{% if forloop.last %}.{% else %} , {% endif %}
+    <i class="fa fa-th-large"></i> <a href="{{ site.baseurl }}/categories/index.html#{{ cat[0] }}-ref">{{ cat[0] }}
+      <span>[{{ cat[1].size }}]</span></a>{% if forloop.last %}.{% else %} , {% endif %}
     {% endfor %}
 
     {% for cat in site.categories %}
-      <div class="col-md-12 content-panel articles">
-        <h2 id="{{ cat[0] }}-ref">{{ cat[0] }}</h2>
-        <ul>
-          {% for post in cat[1] %}
-          <li>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endfor %}
+    <div class="col-md-12 content-panel articles">
+      <h2 id="{{ cat[0] }}-ref">{{ cat[0] }}</h2>
+      <ul>
+        {% for post in cat[1] %}
+        <li>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
-
+    {% endfor %}
   </div>
+
+</div>

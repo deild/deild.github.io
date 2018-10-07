@@ -11,21 +11,23 @@ group: navigation
     <h2 class="header" itemprop="headline">Mots clés</h2>
 
     {% for tag in site.tags %}
-    	<i class="fa fa-tag"></i> <a href="{{ site.baseurl }}/tags/index.html#{{ tag[0] }}-ref">{{ tag[0] }} <span>[{{ tag[1].size }}]</span></a>{% if forloop.last %}.{% else %} , {% endif %}
+    <i class="fa fa-tag"></i> <a href="{{ site.baseurl }}/tags/index.html#{{ tag[0] }}-ref">{{ tag[0] }} <span>[{{
+        tag[1].size }}]</span></a>{% if forloop.last %}.{% else %} , {% endif %}
     {% endfor %}
 
     {% for tag in site.tags %}
-      <div class="col-md-12 content-panel articles">
-        <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-        <ul>
-          {% for post in tag[1] %}
-          <li>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endfor %}
+    <div class="col-md-12 content-panel articles">
+      <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
+      <ul>
+        {% for post in tag[1] %}
+        <li>
+          <i class="fa fa-{{ post.thumbnail fa-fw}}"></i>&nbsp;<a href="{{ post.url | prepend: site.baseurl }}">{{
+            post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
-
+    {% endfor %}
   </div>
+
+</div>
