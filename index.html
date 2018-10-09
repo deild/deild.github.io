@@ -45,7 +45,7 @@ layout: default
                     {% for post in limit_posts limit: site.post_limit %}
 
                     <li>
-                        <i class="fa fa-{{ post.thumbnail fa-fw}}"></i>&nbsp;<a href="{{ post.url | prepend: site.baseurl }}">{{
+                        <i class="fa fa-{{ post.thumbnail }} fa-fw"></i>&nbsp;<a href="{{ post.url | prepend: site.baseurl }}">{{
                             post.title }}</a>
                         <small class="hidden-xs">{{ post.date | date: "%-d.%m.%Y" }}</small>
                     </li>
