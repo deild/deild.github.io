@@ -11,7 +11,7 @@ excerpt: ...
 
 # Avant
 
-![1](http://smur.free.fr/sites/2011/MaisonBockange/content/images/large/IMG_3863.jpg)
+![1](https://farm2.staticflickr.com/1960/44319160485_f1c7e2434a_b.jpg)
 
 # Plus rien
 
