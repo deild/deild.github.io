@@ -12,6 +12,7 @@ excerpt: ...
 # Avant
 
 ![1](https://farm2.staticflickr.com/1960/44319160485_f1c7e2434a_b.jpg)
+![1b](https://farm2.staticflickr.com/1912/45245345321_cf7731befb_b.jpg)
 
 # Plus rien
 
