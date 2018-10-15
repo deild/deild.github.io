@@ -6,6 +6,7 @@ category: cuisine
 tags:
   - Soupe
   - Plat
+  - Thermomix
 thumbnail: cutlery
 excerpt: ...
 ---

@@ -11,6 +11,8 @@ thumbnail: cutlery
 excerpt: ...
 ---
 
+![1](https://farm2.staticflickr.com/1951/30402710647_7d8f068b83_b.jpg)
+
 # Ingrédients
 
 - 250 g de noisettes décortiquées
