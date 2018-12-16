@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Salle de bain [2/2]
+title: Salle de bain [2/3]
 author: Tolva
 category: travaux
 tags:
