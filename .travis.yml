@@ -8,9 +8,9 @@ before_install:
 install: bundle install
 
 after_install:
-  - jekyll --version
+  - bundle exec jekyll --version
 
-script: jekyll build --verbose --incremental && github-pages health-check
+script: bundle exec jekyll build --verbose --incremental && bundle exec github-pages health-check
 
 branches:
   only:
